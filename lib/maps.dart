@@ -12,8 +12,6 @@ class Maps extends StatefulWidget {
 }
 
 class MapsState extends State<Maps> {
-  // ignore: prefer_typing_uninitialized_variables
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,8 +21,6 @@ class MapsState extends State<Maps> {
               center: latLng.LatLng(21.5222, 70.4579),
               zoom: 13.0,
             ),
-
-            //mapbox://styles/prnv1812/cktmma72ba6vf17p95jl5dbz8
             layers: <LayerOptions>[
               TileLayerOptions(
                 urlTemplate:
